@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>RubberDucky</title>
 	<link href="styles.css" rel="stylesheet">
 
 </head>
@@ -15,11 +15,23 @@
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
+		<h1>Hello World</h1>
 		<!-- insert hello world here -->
-
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
-
+		<div id="welcome">
+			<img src="images/bananaDuck.jpeg" id="bananaDuck">
+			<div id="textContent">
+			<p>Welcome to the quacky world of rubber ducks!
+				Here at RubberDucky we showcase all the latest trends in rubber ducks,
+				 as well as discuss the classic. There's a perfect rubber duck for 
+				 every type of fan!
+			</p>
+			<ul>
+				<li>RubberDucky fans make the life more fun!</li>
+				<li>RubberDucky fans create a more colorful world!</li>
+				<li>RubberDucky fans can even make sweet music made entirely of quacks!</li>
+			</ul>
+			</div>
+		</div>
 		<h2>Contact Us</h2>
 		<form id="contact">
 			Your name:
@@ -28,6 +40,21 @@
 			Message:
 			<input type="textarea">
 
+			<fieldset>
+				How did you hear about our site?
+				<div class="formButton">
+				<input type="radio" id="google" name="source" value="Google" checked>
+				<label for="google">Google</label>
+				</div>
+				<div class="formButton">
+				<input type="radio" id="friend" name="source" value="friend">
+				<label for="friend">A Friend</label>
+				</div>
+				<div class="formButton">
+				<input type="radio" id="other" name="source" value="other">
+				<label for="other">Other</label>
+				</div>
+			</fieldset>
 			<input type="submit">
 
 

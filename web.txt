@@ -1,0 +1,24 @@
+The internet is essentially a network of interconnected computers.
+Today's internet infrastructure typically consists of one or more computers
+connected to a special computer called a router. The router can then relay
+the computer message to a modem that translates the computer language into 
+the already established telephone line system that connects many homes and 
+offices already. The modem allows the message to travel to and from the 
+internet service provider and then back to another router connected to the
+end point on some other computer.
+
+The web is more like software that is build using the infrastructure of the 
+internet. It's much like a collection of documents that are read and
+interpreted by a variety of web and computer languages. When a person clicks
+on a link on a website, the computer will look inside of the anchor tag of the 
+html file for the new address to navigate to. First the computer has to 
+translate the domain name into an IP address. It will look at browsing history,
+information stored in the router or with the ISP, or it will look through
+the DNS. A request is then sent from the client computer to the server to 
+download the files for that page. Typically files are split into much smaller
+packets to make web browsing faster and allow web pages to be available to
+multiple computers simultaneously. The html, css, and javascript files are 
+also typically translated into JSON files during transport to allow browsers 
+and servers to talk to each other. Once the client computer receives the files 
+they're translated back into html, css and javascript to be redered on the 
+page.
