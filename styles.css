@@ -88,3 +88,8 @@ label {
 	font-weight: bold;
 	border-radius: 20px;
 }
+
+.neighPic {
+	max-width: 200px;
+	padding: 10px;
+}
