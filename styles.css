@@ -19,6 +19,10 @@ h2 {
 	color: crimson;
 }
 
+h3 {
+	text-align:center;
+}
+
 ol {
 	padding-left: 0;
 }
@@ -92,4 +96,23 @@ label {
 .neighPic {
 	max-width: 200px;
 	padding: 10px;
+}
+
+.park {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.restaurant {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.restaurant p {
+	max-width: 250px;
+}
+
+.clickHereP {
+	float: right;
 }

@@ -13,6 +13,7 @@ function sendAlert(event) {
     }
 }
 
-color.addEventListener('click', sendAlert);
-place.addEventListener('click', sendAlert);
-ritual.addEventListener('click', sendAlert);
+let button = document.querySelectorAll('.favoriteButton');
+for (let i = 0; i < button.length; i++) {
+    button[i].addEventListener('click', sendAlert);
+}
